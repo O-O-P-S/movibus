@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MoviBus</string>
+
+    <string name="navigation_drawer_open">Abrir a gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar a gaveta de navegação</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="action_gostou">O que achou do aplicativo?</string>
+    <string name="action_ajudar">Nos ajude a melhorá-lo :)</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

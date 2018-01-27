@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.opps.movibus.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    app:umanoPanelHeight="60dp"
+    app:umanoShadowHeight="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                layout="@layout/activity_maps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="8dp"
+            android:layout_marginHorizontal="16dp"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:text="Alguma coisa 2"
+                android:padding="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>
