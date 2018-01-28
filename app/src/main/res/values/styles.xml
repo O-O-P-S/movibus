@@ -13,7 +13,7 @@
         <item name="windowActionBar">true</item>
         <item name="windowNoTitle">true</item>
 
-    </style>
+    </style>s
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 

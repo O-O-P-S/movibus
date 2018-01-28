@@ -11,7 +11,7 @@
     tools:showIn="@layout/app_bar_main"
     app:umanoPanelHeight="200dp"
     app:umanoShadowHeight="4dp"
-    app:umanoFadeColor="#ffffff">
+    app:umanoFadeColor="@color/white">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#ffffff">
+            android:background="@color/white">
 
             <include
                 layout="@layout/activity_panel"

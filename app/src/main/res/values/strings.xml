@@ -8,4 +8,7 @@
     <string name="action_gostou">O que achou do aplicativo?</string>
     <string name="action_ajudar">Nos ajude a melhorá-lo :)</string>
     <string name="title_activity_maps">Map</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="linhas">Linhas</string>
+    <string name="pontos">Pontos</string>
 </resources>
