@@ -9,9 +9,9 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="br.com.opps.movibus.MainActivity"
     tools:showIn="@layout/app_bar_main"
-    app:umanoPanelHeight="56dp"
-    app:umanoShadowHeight="0dp"
-    app:umanoFadeColor="@color/colorPrimaryDark">
+    app:umanoPanelHeight="200dp"
+    app:umanoShadowHeight="4dp"
+    app:umanoFadeColor="#ffffff">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -27,13 +27,12 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorPrimaryDark">
+            android:background="#ffffff">
 
-            <TextView
-                android:text="Alguma coisa 2"
-                android:padding="16dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <include
+                layout="@layout/activity_panel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
         </RelativeLayout>
 
 </com.sothree.slidinguppanel.SlidingUpPanelLayout>
